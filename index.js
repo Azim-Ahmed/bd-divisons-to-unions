@@ -1,4 +1,4 @@
-const {divisions, districts, upazillas, unions} = require("./AllData/bangla.js")
+const {divisions, districts, upazillas, unions} = require("./@response-from-this-folder/bangla.js")
 
 function getAllDivision() {
     return divisions
