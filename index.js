@@ -1,15 +1,15 @@
 function getAllDivision() {
     return "this is for getAllDivision"
 }
-function getAllUpazilas() {
+function getAllUpazila() {
     return "this is for getAllUpazilas"
 }
-function getAllUnions() {
+function getAllUnion() {
     return "this is for getAllUnions"
 }
 
 module.exports = {
     getAllDivision,
-    getAllUpazilas,
-    getAllUnions
+    getAllUpazila,
+    getAllUnion
 }
