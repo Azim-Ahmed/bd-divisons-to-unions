@@ -1,15 +1,21 @@
+const {divisions, districts, upazillas, unions} = require("./AllData/bangla.js")
+
 function getAllDivision() {
-    return "this is for getAllDivision"
+    return divisions
+}
+function getAllZilla() {
+    return districts;
 }
 function getAllUpazila() {
-    return "this is for getAllUpazilas"
+    return upazillas
 }
 function getAllUnion() {
-    return "this is for getAllUnions"
+    return unions
 }
 
 module.exports = {
     getAllDivision,
     getAllUpazila,
-    getAllUnion
+    getAllUnion,
+    getAllZilla,
 }
