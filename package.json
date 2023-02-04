@@ -1,0 +1,19 @@
+{
+  "name": "bd-divions-to-unions",
+  "version": "1.0.0",
+  "description": "this package is created for getting all divions , districts, upazilas, unions data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azim-Ahmed/bd-divisons-to-unions.git"
+  },
+  "author": "Azim Uddin Ahamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azim-Ahmed/bd-divisons-to-unions/issues"
+  },
+  "homepage": "https://github.com/Azim-Ahmed/bd-divisons-to-unions#readme"
+}
