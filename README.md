@@ -16,15 +16,15 @@ Use this command in your terminal `npm install bd-divisions-to-unions`
 then you need call the specific function to use these.
 
 
-` import {getAllDivision, getAllDistricts, getAllUpazila, getAllUnion  } from'bd-divisions-to-unions'; `
+` import {getAllDivision, getAllDistrict, getAllUpazila, getAllUnion  } from'bd-divisions-to-unions'; `
 ` console.log(getAllDivision())`
 
 To achieve all data you just call 4 functions
 
 - `getAllDivision()` if you pass the `en` parameter then you will get the english written divisions. `getAllDivisions("en")`
 
-- `getAllDistricts()` if you pass the `en` parameter then you will get the english written Zilla. `getAllDistricts("en")`
+- `getAllDistrict()` if you pass the `en` parameter then you will get the english written Zilla. `getAllDistrict("en")`
 - `getAllUpazila()` if you pass the `en` parameter then you will get the english written upazila. `getAllUpazila("en")`
-- `getAllUnion()` if you pass the `en` parameter then you will get the english written union.  `getAllUnion("en")`
+- `getAllUnion()` if you pass the `en` parameter then you will get the english written union. `getAllUnion("en")`
 
 

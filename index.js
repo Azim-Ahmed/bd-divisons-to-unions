@@ -4,7 +4,7 @@ const {unions_en, districts_en, divisions_en, upazillas_en} = require("./@respon
 function getAllDivision(type) {
     return type === "en"? divisions_en : divisions;
 }
-function getAllDistricts(type) {
+function getAllDistrict(type) {
     return type === "en"? districts_en : districts;
 }
 function getAllUpazila(type) {
@@ -18,5 +18,5 @@ module.exports = {
     getAllDivision,
     getAllUpazila,
     getAllUnion,
-    getAllDistricts,
+    getAllDistrict,
 }
