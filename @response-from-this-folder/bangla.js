@@ -21595,5 +21595,4 @@ module.exports = {
     districts,
     upazillas,
     unions
-
 }
