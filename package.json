@@ -1,5 +1,5 @@
 {
-  "name": "bd-divions-to-unions",
+  "name": "bd-divisions-to-unions",
   "version": "1.0.0",
   "description": "this package is created for getting all divions , districts, upazilas, unions data",
   "main": "index.js",
