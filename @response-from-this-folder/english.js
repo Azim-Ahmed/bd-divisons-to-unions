@@ -309,7 +309,7 @@ const districts_en = {
     ]
 }
 
- const upazillas_en = {
+ const upazilas_en = {
     "4": [
         {
             "value": 266,
@@ -23321,5 +23321,5 @@ const districts_en = {
     ]
 }`);
 module.exports = {
-    unions_en, districts_en, divisions_en, upazillas_en
+    unions_en, districts_en, divisions_en, upazilas_en
 }
