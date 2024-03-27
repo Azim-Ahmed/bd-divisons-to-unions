@@ -14,9 +14,22 @@ function getAllUnion(type) {
     return type === "en"? unions_en : unions;
 }
 
+function getDistricts(division_value, type) {
+    return type === "en"? districts_en[division_value] : districts[division_value];
+}
+function getUpazilas(district_value, type) {
+    return type === "en"? upazilas_en[district_value] : upazilas[district_value];
+}
+function getUnions(upazila_value, type) {
+    return type === "en"? unions_en[upazila_value] : unions[upazila_value];
+}
+
 module.exports = {
     getAllDivision,
     getAllUpazila,
     getAllUnion,
     getAllDistrict,
+    getDistricts,
+    getUpazilas,
+    getUnions
 }
