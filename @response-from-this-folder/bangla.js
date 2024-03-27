@@ -91,7 +91,7 @@ const districts = {
         { value: "91", title: "সিলেট" }
     ]
 }
-const upazillas = {
+const upazilas = {
     '1': [
         { value: "221", title: "কচুয়া" },
         { value: "223", title: "চিতলমারী" },
@@ -21593,6 +21593,6 @@ const unions = JSON.parse(`{
 module.exports = {
     divisions,
     districts,
-    upazillas,
+    upazilas,
     unions
 }
