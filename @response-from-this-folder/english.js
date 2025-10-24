@@ -2744,7 +2744,7 @@ const districts_en = {
         },
         {
             "value": 4579,
-            "title": "Gopalganj "
+            "title": "Gopalganj"
         }
     ],
     "386": [
