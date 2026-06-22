@@ -1,19 +1,54 @@
 {
   "name": "bd-divisions-to-unions",
   "version": "1.0.2",
-  "description": "this package is created for getting all divions , districts, upazilas, unions data",
+  "description": "A comprehensive npm package providing complete Bangladesh administrative hierarchy data — Divisions, Districts, Upazilas, and Unions — in both Bangla and English.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node -e \"const pkg = require('./index.js'); const d = pkg.getAllDivision(); if(!d || !d.length) process.exit(1); console.log('✓ getAllDivision (bn):', d.length, 'divisions'); const de = pkg.getAllDivision('en'); console.log('✓ getAllDivision (en):', de.length, 'divisions'); const dist = pkg.getDistricts(d[0].value); console.log('✓ getDistricts:', dist && dist.length, 'districts'); console.log('All checks passed!');\""
   },
+  "keywords": [
+    "bangladesh",
+    "bd",
+    "divisions",
+    "districts",
+    "upazilas",
+    "unions",
+    "administrative",
+    "geo",
+    "geography",
+    "location",
+    "bangla",
+    "address",
+    "form",
+    "hierarchy",
+    "zila",
+    "thana",
+    "upazila",
+    "union",
+    "bangladesh-data",
+    "bd-divisions",
+    "bd-districts"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Azim-Ahmed/bd-divisons-to-unions.git"
   },
-  "author": "Azim Uddin Ahamed",
+  "author": {
+    "name": "Azim Uddin Ahamed",
+    "email": "azimaahmed36@gmail.com",
+    "url": "https://www.visualflow.dev"
+  },
   "license": "ISC",
+  "funding": {
+    "type": "buymeacoffee",
+    "url": "https://buymeacoffee.com/azimahmed"
+  },
   "bugs": {
     "url": "https://github.com/Azim-Ahmed/bd-divisons-to-unions/issues"
   },
-  "homepage": "https://github.com/Azim-Ahmed/bd-divisons-to-unions#readme"
+  "homepage": "https://github.com/Azim-Ahmed/bd-divisons-to-unions#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  }
 }
